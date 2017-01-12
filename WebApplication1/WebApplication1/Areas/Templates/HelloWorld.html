@@ -2,9 +2,26 @@
 <html>
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <link href="../Styles/bootstrap.min.css" rel="stylesheet" />
+    <meta charset="utf-8" />
 </head>
-<body>
-    <h2> Hello World</h2>
+<body ng-app="app" ng-controller="MyCtrl">
+    <section class="container">
+        <select class="form-control" ng-model="lang" ng-change="translate()">
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+        </select>
+        <h2>{{translation.HELLO_WORLD}}</h2>
+        <div>
+            <input class="form-control" ng-model="name" placeholder="Enter Name" />
+            <h3>{{translation.HELLO}}</h3>
+            <p>
+                {{translation.GREETING}} <strong>{{name}}</strong>
+            </p>
+        </div>
+    </section>
+    <script src="../Scripts/Vendor/angular/angular.min.js"></script>
+    <script src="../Scripts/Vendor/angular/angular-resource.min.js"></script>
+    <script src="../Scripts/app/HomeController.js"></script>
 </body>
 </html>

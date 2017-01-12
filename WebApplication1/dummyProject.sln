@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempApp", "WebApplication1\tempApp.csproj", "{910A5ACD-4413-4550-8539-EB9C7BE88B52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLingualApp", "WebApplication1\MultiLingualApp.csproj", "{910A5ACD-4413-4550-8539-EB9C7BE88B52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
